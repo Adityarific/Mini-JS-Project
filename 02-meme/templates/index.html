@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Meme Website</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <meta http-equiv="refresh" content="30; url=http://127.0.0.1:5000/"> -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <div class="header">
+        <h1>A website to gather some memes!</h1>    
+    </div>
+    <div class="timer"></div>  
+    <div class="img"></div>
+
+    <p>Next meme in <span id="timer">15</span> seconds</p>
+    <!-- <p>Here is your meme! This will refresh in 30 seconds!</p> -->
+    <p><img src="{{ meme_pic }}" alt="Meme image"></p>
+    
+</body>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+
+</html>

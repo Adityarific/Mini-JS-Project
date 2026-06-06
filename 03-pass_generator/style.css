@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #002339;
+    color: white;
+    margin-left: 150px;
+    margin-top: 150px;
+
+}
+.head h1{
+    font-size: 43px;
+}
+
+.len{
+    margin-top:15px ;
+    display: flex;
+    input::placeholder{
+        text-align: center;
+    }
+}
+input {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;    
+  border-radius: 5px; 
+  margin-right: 10px;    /* Match font size to the box scale */
+}
+button{
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(32, 181, 32);
+    font-weight: bold;
+    color: white;
+}
+.generated{
+    margin-top: 8px;
+}
